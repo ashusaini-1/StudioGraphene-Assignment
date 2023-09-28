@@ -1,0 +1,166 @@
+.main-page {
+  background-color: black;
+  height: 655px;
+}
+.content-box {
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+}
+.content-box-1 {
+  width: 50%;
+  padding-top: 70px;
+}
+.title {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  font-size: 135px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  font-family: Imported;
+  margin-top: 2%;
+  margin-left: 18%;
+
+  letter-spacing: 3px;
+}
+.year {
+  position: absolute;
+  font-weight: 600;
+  font-size: 150px;
+  -webkit-text-stroke: 1px rgb(254, 251, 251);
+  -webkit-text-fill-color: transparent;
+ margin-top: -3%;
+  margin-left: 15%;
+  font-family: Imported;
+  letter-spacing: 3px;
+  z-index: 3;
+}
+.subtitle {
+  position: absolute;
+  font-weight: 800;
+  font-size: 135px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 2%;
+  font-family: Imported;
+  margin-top: 5%;
+  letter-spacing: 3px;
+  margin-left: -4%;
+  z-index: 3;
+}
+.orange-box {
+  position: relative;
+  background-color: #F07E15;
+  width: 68%;
+  height: 360px;
+  margin-left: 32%;
+  margin-top: -35.5%;
+  z-index: 2;
+}
+.content-box-2 {
+  width: 50%;
+  z-index: 3;
+}
+.star-image {
+  position: absolute;
+  width: 367px;
+  height: 371.51px;
+  left: 68%;
+  z-index: 3;
+}
+.boy-image {
+  position: absolute;
+  width: 432px;
+  height: 650.95px;
+  left: 63%;
+  z-index: 3;
+}
+.star-image-3 {
+  position: absolute;
+  width: 64px;
+  height: 89.08px;
+  left: 885px;
+  top: 591px;
+  z-index: 3;
+}
+.line-divider {
+  position: absolute;
+  width: 920px;
+  height: 0px;
+  left: 0px;
+  top: 635.51px;
+  border: 1px solid #ffffff;
+  z-index: 3;
+}
+.see-more {
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 25px;
+  border: 1px solid #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  left: 14%;
+  top: 685.51px;
+  color: #ffffff;
+  display: flex;
+}
+.arrow-icon {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+@media all and (max-width: 600px) {
+  .main-page {
+    width: 950px;
+  }
+  .star-image {
+    margin-left: 85%;
+  }
+  .boy-image {
+    margin-left: 70%;
+  }
+  .title {
+    margin-left: 20%;
+    margin-top: 30%;
+    font-size: 100px;
+  }
+  .year {
+    margin-left: 50%;
+    font-size: 100px;
+  }
+  .subtitle {
+    margin-left: 20%;
+    font-size: 100px;
+    margin-top: 20%;
+  }
+  .line-divider {
+    width: 560px;
+  }
+  .star-image-3 {
+    position: absolute;
+    width: 64px;
+    height: 89.08px;
+    left: 535px;
+    top: 591px;
+  }
+  .orange-box {
+    position: absolute;
+    background-color: rgba(240, 126, 21, 1);
+    width: 950px;
+    height: 354.3px;
+    opacity: 0.5;
+    margin-left: 0%;
+    margin-top: -120%;
+  }
+  .see-more {
+    margin-left: 40%;
+  }
+  .arrow-icon {
+    margin-left: 55%;
+  }
+}

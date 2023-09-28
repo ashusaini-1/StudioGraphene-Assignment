@@ -1,0 +1,37 @@
+.site-footer {
+  background: #000000;
+}
+
+.footer-content {
+  border: 1px solid rgb(2, 2, 2);
+  height: 66px;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+@media all and (max-width: 391px) {
+  .site-footer {
+    width: 243%;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-text {
+    word-spacing: 0px;
+  }
+}

@@ -1,0 +1,149 @@
+.contact-form {
+  background: url("../../assets/bgi.svg");
+}
+
+.contact-section {
+  width: 75%;
+  height: 520px;
+  margin: auto 7%;
+}
+
+.contact-header {
+  height: 50%;
+  display: flex;
+}
+
+.contact-title {
+  height: 100%;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.contact-form-container {
+  height: 100%;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.contact-info {
+  height: 50%;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 135px;
+  color: #ffffff;
+  text-align: left;
+  line-height: 130px;
+  letter-spacing: 18px;
+  font-stretch: ultra-expanded;
+}
+
+.contact-heading {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Syne";
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-subheading {
+  font-family: "Work Sans";
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact-input {
+  background: transparent;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: white;
+  height: 30px;
+}
+
+.contact-message {
+  background: transparent;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: white;
+}
+
+.contact-error-message {
+  color: red;
+}
+
+.contact-button {
+  margin-left: 90%;
+}
+
+.contact-send-button {
+  width: 181px;
+  height: 181px;
+  background: transparent;
+  border-radius: 50%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  border: 2px solid #f07e15;
+  color: #f07e15;
+  line-height: 16px;
+}
+
+@media all and (max-width: 391px) {
+  .contact-section {
+    width: 75%;
+    height: 1020px;
+    margin: auto;
+  }
+  .contact-form {
+    width: 950px;
+    height: 950px;
+  }
+  .contact-info {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .contact-header {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-title {
+    margin: auto;
+    width: 100%;
+  }
+  .contact-heading {
+    text-align: center;
+    font-size: 50px;
+  }
+  .contact-subheading {
+    text-align: center;
+    font-size: 25px;
+  }
+  .contact-form-container {
+    margin: auto;
+  }
+  .contact-form-container {
+    width: 100%;
+  }
+}

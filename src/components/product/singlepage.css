@@ -1,0 +1,40 @@
+.product-container {
+  font-family: "Roboto", "sans-serif", "Open Sans";
+}
+
+
+.product-image {
+  width: 200px;
+  height: 322px;
+}
+
+.product-name {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left;
+}
+
+.product-des {
+  font-size: 14px;
+  text-align: left;
+}
+
+.product-price {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-align: left;
+}
